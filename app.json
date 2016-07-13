@@ -1,0 +1,17 @@
+{
+    "name": "Go Websocket Chat",
+    "description": "Go websocket application.",
+    "keywords": [
+        "streaming",
+        "redis",
+        "go"
+    ],
+    "image": "heroku/go:latest",
+    "mount_dir": "src/https://github.com/wonseobjoe/gowebsocketapp1",
+    "website": "https://github.com/wonseobjoe/gowebsocketapp1",
+    "repository": "https://github.com/wonseobjoe/gowebsocketapp1",
+    "scripts": {},
+    "addons": [
+        "heroku-redis"
+    ]
+}
